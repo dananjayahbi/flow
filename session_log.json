@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2025-07-30T14:45:20.594062",
+    "action": "continue",
+    "user_input": "hello"
+  },
+  {
+    "timestamp": "2025-07-30T14:45:36.512428",
+    "action": "finish",
+    "user_input": "finish"
+  },
+  {
+    "timestamp": "2025-07-30T14:46:13.778832",
+    "action": "continue",
+    "user_input": "c"
+  },
+  {
+    "timestamp": "2025-07-30T14:46:38.082259",
+    "action": "continue",
+    "user_input": "this is a test instruction"
+  },
+  {
+    "timestamp": "2025-07-30T14:53:39.945053",
+    "action": "continue",
+    "user_input": "Make the UI more modern"
+  },
+  {
+    "timestamp": "2025-07-30T14:55:00.888684",
+    "action": "continue",
+    "user_input": "The layout is bit messy. Fix that."
+  },
+  {
+    "timestamp": "2025-07-30T14:56:52.363497",
+    "action": "continue",
+    "user_input": "make the footer stick to the bottom. Build a more interesting header. Use dark mode colors."
+  },
+  {
+    "timestamp": "2025-07-30T14:57:31.958715",
+    "action": "finish",
+    "user_input": "done"
+  },
+  {
+    "timestamp": "2025-07-30T09:28:22.333Z",
+    "action": "continue",
+    "user_input": "d"
+  }
+]
