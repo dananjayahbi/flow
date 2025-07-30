@@ -43,5 +43,70 @@
     "timestamp": "2025-07-30T09:28:22.333Z",
     "action": "continue",
     "user_input": "d"
+  },
+  {
+    "timestamp": "2025-07-31T00:00:42.054281",
+    "action": "continue",
+    "user_input": "I think it's working. But you should improve UI of the GUI bit more. Add some custom buttons to add number listings, bullets etc."
+  },
+  {
+    "timestamp": "2025-07-31T00:19:27.932771",
+    "action": "continue",
+    "user_input": "If this response includes update in brackets after this sentense, the update is working :"
+  },
+  {
+    "timestamp": "2025-07-31T00:22:50.906912",
+    "action": "continue",
+    "user_input": "No, the update is not working. Previos content means not the very previos content. I mean the currently entered instructions to the terminal. \n\n01. After inserting the instructions from the GUI, it should display \"Press Enter to execute these instructions or type \"edit\" and press enter to open the GUI again to edit\"."
+  },
+  {
+    "timestamp": "2025-07-31T00:25:47.089267",
+    "action": "continue",
+    "user_input": "If you see update in brachets after this sentense, update is working: (update)"
+  },
+  {
+    "timestamp": "2025-07-31T00:31:43.847493",
+    "action": "continue",
+    "user_input": "Ok. I think this is working now. But when I edit, it opens a different UI that doesn't apply styles and colors."
+  },
+  {
+    "timestamp": "2025-07-31T00:39:26.995379",
+    "action": "continue",
+    "user_input": "Seems like still the same. Try more. Here is some error messages logged in the terminal:\n\nbgerror failed to handle background error.\n    Original error: can't invoke \"event\" command: application has been destroyed\n    Error in bgerror: can't invoke \"tk\" command: application has been destroyed"
+  },
+  {
+    "timestamp": "2025-07-31T00:42:57.356386",
+    "action": "continue",
+    "user_input": "Still shows this errors when I open for editing:\n\nbgerror failed to handle background error.\n    Original error: can't invoke \"event\" command: application has been destroyed\n    Error in bgerror: can't invoke \"tk\" command: application has been destroyed"
+  },
+  {
+    "timestamp": "2025-07-31T00:44:30.489346",
+    "action": "continue",
+    "user_input": "\ud83d\udccb Press Enter to execute these instructions\n    or type 'edit' and press Enter to modify them...\n\ud83d\udc64 Your choice: edit\n\ud83d\udd04 Reopening GUI editor with current content...\n\ud83d\udd04 Opening GUI editor...\nbgerror failed to handle background error.\n    Original error: can't invoke \"event\" command: application has been destroyed\n    Error in bgerror: can't invoke \"tk\" command: application has been destroyed"
+  },
+  {
+    "timestamp": "2025-07-31T00:45:44.038311",
+    "action": "continue",
+    "user_input": "Now the UI messed up somehow"
+  },
+  {
+    "timestamp": "2025-07-31T00:47:00.212853",
+    "action": "continue",
+    "user_input": "still the same. I can't see the previous beautiful UI now. It just kinda very previos one."
+  },
+  {
+    "timestamp": "2025-07-31T00:50:17.593599",
+    "action": "continue",
+    "user_input": "still says this:\n\n\ud83d\udccb Press Enter to execute these instructions\n    or type 'edit' and press Enter to modify them...\n\ud83d\udc64 Your choice: edit\n\ud83d\udd04 Reopening GUI editor with current content...\n\ud83d\udd04 Opening GUI editor...\nbgerror failed to handle background error.\n    Original error: can't invoke \"event\" command: application has been destroyed\n    Error in bgerror: can't invoke \"tk\" command: application has been destroyed\n\n\nLet's try again with pure tkinter with styles again to ensure the issue is not related to tkinter."
+  },
+  {
+    "timestamp": "2025-07-31T00:53:17.731235",
+    "action": "finish",
+    "user_input": "done"
+  },
+  {
+    "timestamp": "2025-07-31T00:54:20.480824",
+    "action": "continue",
+    "user_input": "Its working now"
   }
 ]

@@ -34,7 +34,7 @@ class GitHubCopilotFlow {
         console.log('\n💬 What would you like to do next?');
         console.log('\n📋 Options:');
         console.log('   🔄 Continue: Describe changes, improvements, or new features');
-        console.log('   ✅ Finish: Type "done", "finish", or "end" to complete session');
+        console.log('   ✅ Finish: Type "done" or "finish" to complete session');
         console.log('   ❓ Help: Type "help" for more options');
         console.log('\n' + '-'.repeat(50));
 
@@ -55,10 +55,14 @@ class GitHubCopilotFlow {
 
     processInput(userInput) {
         const inputLower = userInput.toLowerCase().trim();
-        const finishKeywords = ['done', 'finish', 'end', 'complete', 'stop', 'exit', 'quit'];
+        const finishKeywords = ['done', 'finish'];
         
-        if (finishKeywords.some(keyword => inputLower.includes(keyword))) {
-            return { action: 'finish', input: userInput };
+        // Check for finish commands - only standalone words "done" or "finish"
+        for (const keyword of finishKeywords) {
+            const regex = new RegExp(`\\b${keyword}\\b`);
+            if (regex.test(inputLower)) {
+                return { action: 'finish', input: userInput };
+            }
         }
         
         if (inputLower.includes('help')) {
@@ -79,7 +83,7 @@ class GitHubCopilotFlow {
         console.log('   - Example: "Add more animations"');
         
         console.log('\n✅ TO FINISH:');
-        console.log('   - Type: "done", "finish", "end", or "complete"');
+        console.log('   - Type: "done" or "finish" (as standalone words)');
         console.log('   - The session will end with a summary');
         
         console.log('\n💡 TIPS:');
