@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Standalone GUI helper for continuous flow.py
-No timeouts - window stays open until user action
+Standalone GUI helper for flow.py to avoid window destruction errors
 """
 import sys
 import os
@@ -34,13 +33,10 @@ class StandaloneGUI:
         import ttkbootstrap as ttk
         
         self.root = ttk.Window(
-            title="GitHub Copilot - Continuous Flow Instructions",
+            title="GitHub Copilot - Detailed Instructions",
             themename="darkly",
             size=(900, 700)
         )
-        
-        # Make window stay on top
-        self.root.attributes('-topmost', True)
         
         # Main container
         main_frame = ttk.Frame(self.root, padding=20)
@@ -49,20 +45,11 @@ class StandaloneGUI:
         # Title
         title_label = ttk.Label(
             main_frame, 
-            text="📝 Continuous Flow Instructions",
+            text="📝 Detailed Instructions Editor",
             font=('Segoe UI', 16, 'bold'),
             bootstyle="info"
         )
-        title_label.pack(pady=(0, 10))
-        
-        # Subtitle
-        subtitle_label = ttk.Label(
-            main_frame,
-            text="Enter your instructions below. This window will stay open until you submit or cancel.",
-            font=('Segoe UI', 10),
-            bootstyle="secondary"
-        )
-        subtitle_label.pack(pady=(0, 15))
+        title_label.pack(pady=(0, 15))
         
         # Toolbar frame
         toolbar_frame = ttk.Frame(main_frame)
@@ -85,7 +72,7 @@ class StandaloneGUI:
         ttk.Button(right_toolbar, text="--- Sep", command=self.add_separator, bootstyle="outline-warning", width=10).pack(side=LEFT, padx=(0, 5))
         ttk.Button(right_toolbar, text="🗑️ Clear", command=self.clear_text, bootstyle="outline-danger", width=10).pack(side=LEFT)
         
-        # Text area with instructions template
+        # Text area
         self.text_area = ScrolledText(
             main_frame,
             height=20,
@@ -94,7 +81,6 @@ class StandaloneGUI:
         )
         self.text_area.pack(fill=BOTH, expand=True, pady=(0, 15))
         
-        # Add initial text if provided, otherwise start blank
         if self.initial_text:
             self.text_area.insert("1.0", self.initial_text)
         
@@ -102,13 +88,13 @@ class StandaloneGUI:
         button_frame = ttk.Frame(main_frame)
         button_frame.pack(fill=X, pady=(0, 10))
         
-        ttk.Button(button_frame, text="✅ Submit Instructions (Ctrl+Enter)", command=self.submit, bootstyle="success", width=30).pack(side=LEFT, padx=(0, 10))
-        ttk.Button(button_frame, text="❌ Cancel (Esc)", command=self.cancel, bootstyle="danger", width=20).pack(side=LEFT)
+        ttk.Button(button_frame, text="✅ Submit (Ctrl+Enter)", command=self.submit, bootstyle="success", width=25).pack(side=LEFT, padx=(0, 10))
+        ttk.Button(button_frame, text="❌ Cancel (Esc)", command=self.cancel, bootstyle="danger", width=25).pack(side=LEFT)
         
-        # Status with continuous flow note
+        # Status
         self.status_label = ttk.Label(
             main_frame,
-            text="💡 No timeout - Take your time | Shortcuts: Ctrl+Enter (Submit) | Escape (Cancel) | Ctrl+L (Clear)",
+            text="💡 Shortcuts: Ctrl+Enter (Submit) | Escape (Cancel) | Ctrl+L (Clear)",
             font=('Segoe UI', 9),
             bootstyle="secondary"
         )
@@ -129,11 +115,8 @@ class StandaloneGUI:
         from tkinter import scrolledtext
         
         self.root = tk.Tk()
-        self.root.title("GitHub Copilot - Continuous Flow Instructions")
+        self.root.title("GitHub Copilot - Detailed Instructions")
         self.root.geometry("900x700")
-        
-        # Make window stay on top
-        self.root.attributes('-topmost', True)
         
         # Dark theme colors
         bg_color = '#2b2b2b'
@@ -150,20 +133,11 @@ class StandaloneGUI:
         # Title
         title_label = tk.Label(
             main_frame,
-            text="📝 Continuous Flow Instructions",
+            text="📝 Detailed Instructions Editor",
             font=('Arial', 16, 'bold'),
             fg='#4CAF50', bg=bg_color
         )
-        title_label.pack(pady=(0, 10))
-        
-        # Subtitle
-        subtitle_label = tk.Label(
-            main_frame,
-            text="Enter your instructions below. This window will stay open until you submit or cancel.",
-            font=('Arial', 10),
-            fg='#cccccc', bg=bg_color
-        )
-        subtitle_label.pack(pady=(0, 15))
+        title_label.pack(pady=(0, 15))
         
         # Toolbar
         toolbar_frame = tk.Frame(main_frame, bg=bg_color)
@@ -204,7 +178,6 @@ class StandaloneGUI:
         )
         self.text_area.pack(fill=tk.BOTH, expand=True, pady=(0, 15))
         
-        # Add initial text if provided, otherwise start blank
         if self.initial_text:
             self.text_area.insert(1.0, self.initial_text)
         
@@ -214,7 +187,7 @@ class StandaloneGUI:
         
         submit_btn = tk.Button(
             button_frame,
-            text="✅ Submit Instructions (Ctrl+Enter)",
+            text="✅ Submit (Ctrl+Enter)",
             command=self.submit,
             bg='#4CAF50',
             fg='white',
@@ -237,12 +210,10 @@ class StandaloneGUI:
         cancel_btn.pack(side=tk.LEFT)
         
         # Status
-        status_label = tk.Label(
-            main_frame,
-            text="💡 No timeout - Take your time | Shortcuts: Ctrl+Enter (Submit) | Escape (Cancel) | Ctrl+L (Clear)",
-            font=('Arial', 9),
-            fg='#cccccc', bg=bg_color
-        )
+        status_label = tk.Label(main_frame,
+                               text="💡 Shortcuts: Ctrl+Enter (Submit) | Escape (Cancel) | Ctrl+L (Clear)",
+                               font=('Arial', 9),
+                               fg='#cccccc', bg=bg_color)
         status_label.pack(pady=(10, 0))
         
         # Bindings
@@ -384,7 +355,6 @@ class StandaloneGUI:
         self.root.destroy()
     
     def run(self):
-        """Run the GUI - no timeout, stays open until user action"""
         self.root.mainloop()
 
 if __name__ == "__main__":

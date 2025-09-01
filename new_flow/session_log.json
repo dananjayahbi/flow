@@ -1,0 +1,87 @@
+[
+  {
+    "timestamp": "2025-09-01T10:09:59.736002",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:11:33.225472",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:15:13.720193",
+    "action": "continue",
+    "user_input": "Hello"
+  },
+  {
+    "timestamp": "2025-09-01T10:16:06.872976",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:18:38.284535",
+    "action": "continue",
+    "user_input": "Hello!"
+  },
+  {
+    "timestamp": "2025-09-01T10:23:00.877400",
+    "action": "continue",
+    "user_input": "test"
+  },
+  {
+    "timestamp": "2025-09-01T10:23:52.617660",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:24:56.595719",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:30:04.393755",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:32:36.923525",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:33:12.160478",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nEXECUTION STEPS AND INSTRUCTIONS:\n01. Create a proper main.py to run the app.\n02. Make sure the app is error free\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T10:38:13.281017",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. Make the GUI window's UI more interactive.\n02. I don't want it to have that example tkinter window. Just the port killer window is enough.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T11:35:35.967094",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. It is perfect. Now we should make sure it is ready for production after making a few minor changes.\n02. Currently, the Auto refresh is enabled as the default when the app opens. Make it disabled as the default. The user can toggle it to enable if they want.\n03. Make the Quick action button be in the center of the section.\n04. We should create an executable .exe file (a single file) to make it easy to use and portable.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T11:43:42.438555",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. Please look at the workspace. I added icon.ico and icon.png. You have to regenerate the app using the correct icon.\n02. Make sure the app generates error-free.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T11:47:48.869887",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. It still uses the tkinter icon instead of the icon I provided.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T11:56:32.760695",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. In the .exe file we created, when it execute things like scanning, killing ports etc, it opens CMD windows for that. Make it to do it in background instead.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  },
+  {
+    "timestamp": "2025-09-01T12:26:27.873665",
+    "action": "continue",
+    "user_input": "##MANDATORY EXECUTION LOOP - DO NOT CONCLUDE SESSION\n\n--CRITICAL: This is an ongoing iteration task. You MUST run flow.py after completing these steps.\n\nYOUR TASKS AND INSTRUCTIONS:\n01. Now, I wanna post about this on LinkedIn.\n02. This is why I built this: Sometimes, when I run web apps, if I suddenly close the terminal, sometimes, it still runs in the background. So, I have to manually find the PID and terminate the process. It's inefficient because we have to do it manually. So, I built this app to do it with ease.\n03. You have to create the LinkedIn post in a LinkedIn.md file in markdown format.\n04. Don't include many emojis in the post content.\n\n--MANDATORY NEXT ACTION: Run flow.py (python /e/My_GitHub_Repos/flow/flow.py)\n--DO NOT CONCLUDE - This is a continuous workflow\n--WAIT FOR USER INPUT from flow.py before proceeding\n\nCRITICAL RULES:\n- NEVER finish without running flow.py\n- NEVER conclude the session \n- ALWAYS execute: python /e/My_GitHub_Repos/flow/flow.py\n- ALWAYS wait for flow.py response before next iteration\n- This is an ONGOING TASK requiring continuous execution\n\n--FLOW REQUIREMENT COMMAND: \"python /e/My_GitHub_Repos/flow/flow.py\""
+  }
+]
